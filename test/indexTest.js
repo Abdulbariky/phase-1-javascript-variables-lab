@@ -2,6 +2,7 @@ require ( './helpers.js' );
 
 const fs = require('fs')
 const path = require('path')
+let companyName = 'Scuber';
 
 const js = fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
 
